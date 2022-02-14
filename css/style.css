@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+}
+
+.logo {
+  max-width: 300px;
+  width: 60vw;
+}
+
+nav {
+  position: fixed;
+  top: 0px;
+}
+
+.features-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.feature {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icon > i {
+  color: orange;
+  align-self: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vw;
+  padding: 5px;
+}
+
+.description > h3,
+p {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 650px) {
+  body {
+    background-color: #ff3399;
+  }
+}
